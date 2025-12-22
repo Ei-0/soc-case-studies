@@ -13,3 +13,18 @@ accessing the system at approximately 2:17 AM from an internal workstation.
 
 At this stage, the activity was treated as an event rather than a
 confirmed incident, as no malicious behavior had yet been observed.
+
+## Timeline
+
+- **02:17 AM** — A successful login occurred for a finance department user
+outside normal business hours. While unusual, no immediate malicious
+activity was observed at this point.
+
+- **02:19 AM** — PowerShell execution was detected on the user's workstation.
+This represented a clear deviation from the established baseline, as
+non-IT users do not typically use PowerShell in this environment.
+
+- **02:20 AM** — Access to sensitive financial directories on the internal
+file server was observed shortly after the PowerShell execution. The
+sequence of events suggested a transition from access to potential
+intent-driven activity.
