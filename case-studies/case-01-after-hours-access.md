@@ -28,3 +28,24 @@ non-IT users do not typically use PowerShell in this environment.
 file server was observed shortly after the PowerShell execution. The
 sequence of events suggested a transition from access to potential
 intent-driven activity.
+
+## Analysis
+
+The initial after-hours login alone was not sufficient to confirm
+malicious intent, as legitimate explanations such as overtime work or
+remote access could not be ruled out.
+
+However, the subsequent execution of PowerShell by a non-IT user
+represented a significant deviation from normal behavior. In this
+environment, finance users do not typically require command-line tools
+to perform their duties.
+
+The rapid sequence from PowerShell execution to access of sensitive
+financial directories further increased concern. This progression
+suggested intentional activity rather than accidental or routine user
+behavior.
+
+At this stage, the situation was assessed as a high-risk anomaly
+requiring close monitoring, but not yet immediate containment, in order
+to better understand the user’s intent and avoid disrupting legitimate
+business activity prematurely.
