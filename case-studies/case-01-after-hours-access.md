@@ -49,3 +49,19 @@ At this stage, the situation was assessed as a high-risk anomaly
 requiring close monitoring, but not yet immediate containment, in order
 to better understand the user’s intent and avoid disrupting legitimate
 business activity prematurely.
+
+## Decision
+
+Based on the available evidence at this stage, the decision was made to
+continue monitoring the activity rather than immediately containing the
+user or isolating the workstation.
+
+This decision was driven by the absence of confirmed data exfiltration,
+privilege escalation, or destructive behavior. Immediate containment
+could have prematurely disrupted legitimate business activity or
+alerted a potential threat actor before sufficient context was
+gathered.
+
+Additional logging and monitoring were prioritized to capture further
+activity and enable a more confident response if the behavior
+escalated.
