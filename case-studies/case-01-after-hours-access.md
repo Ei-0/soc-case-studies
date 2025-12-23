@@ -65,3 +65,21 @@ gathered.
 Additional logging and monitoring were prioritized to capture further
 activity and enable a more confident response if the behavior
 escalated.
+
+## Outcome
+
+Following continued monitoring, no evidence of data exfiltration,
+privilege escalation, or malicious persistence was observed. The
+activity was ultimately assessed as non-malicious but anomalous user
+behavior.
+
+The case was documented to improve future detection and reduce
+uncertainty around similar events.
+
+## Recommendations
+
+- Improve baseline documentation for after-hours access by non-IT
+users.
+- Implement alerting for PowerShell usage by finance department users.
+- Reinforce the principle of least privilege and review access needs
+periodically.
