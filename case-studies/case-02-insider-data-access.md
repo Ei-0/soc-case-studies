@@ -36,3 +36,24 @@ rather than legitimate operational changes.
 Subsequent activity showed that copies of the accessed data were staged
 within an internal shared directory, a location not typically used for
 official data processing or archival purposes.
+
+## Analysis
+
+The observed activity did not align with typical administrative tasks.
+While IT administrators have broad access, the pattern of repeated
+access across multiple sensitive financial and HR files lacked a clear
+operational justification.
+
+The access behavior was characterized by:
+- Repeated file access without modification
+- Targeting of multiple sensitive departments
+- Gradual accumulation of data over several days
+- Staging of files in a non-standard internal directory
+
+This pattern suggested intentional data collection rather than
+accidental access or routine troubleshooting. The absence of immediate
+external data transfer indicated a cautious approach, potentially
+aimed at avoiding detection before removal of the data.
+
+At this stage, the activity was assessed as a high-risk insider threat
+scenario requiring careful escalation rather than direct confrontation.
