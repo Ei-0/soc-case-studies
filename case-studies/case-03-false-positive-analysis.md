@@ -21,3 +21,22 @@ exfiltration, privilege escalation, or lateral movement were observed.
 The alert required analyst review to determine whether the activity
 represented malicious behavior or a false positive.
 
+## Timeline & Context Gathering
+
+- **09:12 AM** — PowerShell execution was detected on a user workstation
+during standard business hours. The activity originated from the user's
+assigned device within the corporate network.
+
+- **09:13 AM** — The executed command was correlated with a legitimate
+internal automation script used to perform system inventory checks.
+The script was signed and had been previously observed within the
+environment.
+
+- **09:15 AM** — No additional suspicious behavior was detected following
+the execution. There was no evidence of external network connections,
+unauthorized file access, or privilege escalation.
+
+Further context revealed that the user belonged to a technical support
+team that routinely performed troubleshooting and system validation
+tasks as part of their role.
+
