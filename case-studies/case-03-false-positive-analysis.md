@@ -61,3 +61,30 @@ sensitive data, or outbound network connections.
 Based on this analysis, the activity was assessed as legitimate and
 consistent with the user’s job function rather than an attempted
 attack.
+
+## Decision
+
+Based on the supporting context and absence of malicious indicators,
+the alert was classified as a false positive. No containment or
+escalation actions were taken.
+
+The decision prioritized avoiding unnecessary disruption to legitimate
+business operations while ensuring sufficient evidence supported the
+assessment.
+
+## Outcome
+
+The activity was confirmed as legitimate administrative behavior
+consistent with the user’s role. The alert was closed with full
+documentation to support future reference and analyst confidence.
+
+This case highlighted the importance of contextual analysis in reducing
+alert fatigue and maintaining operational efficiency within the SOC.
+
+## Recommendations
+
+- Update detection rules to account for signed internal automation
+scripts.
+- Improve baseline documentation for technical support workflows.
+- Use this case as a reference example for analyst training on false
+positive handling.
