@@ -57,3 +57,17 @@ aimed at avoiding detection before removal of the data.
 
 At this stage, the activity was assessed as a high-risk insider threat
 scenario requiring careful escalation rather than direct confrontation.
+
+## Decision & Escalation
+
+Given the absence of an immediate external data transfer but the clear
+pattern of intentional data collection, the decision was made not to
+confront the user directly or disrupt access prematurely.
+
+The case was escalated through appropriate internal channels, including
+incident response leadership and management, to ensure proper handling
+with legal and human resources considerations in mind.
+
+Preservation of evidence was prioritized, including access logs,
+file activity records, and device usage data, to support further
+investigation and potential formal proceedings.
