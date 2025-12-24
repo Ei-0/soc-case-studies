@@ -71,3 +71,22 @@ with legal and human resources considerations in mind.
 Preservation of evidence was prioritized, including access logs,
 file activity records, and device usage data, to support further
 investigation and potential formal proceedings.
+
+## Outcome
+
+The investigation established a consistent pattern of non-routine
+access to sensitive data by a privileged internal account. While no
+confirmed external exfiltration was observed during the review period,
+the activity met the threshold for a confirmed insider risk case.
+
+The findings were formally documented and transferred to the
+appropriate internal stakeholders for further action.
+
+## Recommendations
+
+- Implement stricter monitoring of privileged user access to sensitive
+data.
+- Establish clearer documentation for approved administrative access
+activities.
+- Enable alerting for large-scale internal data staging behaviors.
+- Conduct periodic reviews of privileged account usage patterns.
